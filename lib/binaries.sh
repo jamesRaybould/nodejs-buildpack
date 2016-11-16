@@ -89,3 +89,8 @@ install_npm() {
     fi
   fi
 }
+
+install_sky_toolbelt() {
+  echo "Installing Sky-Toolbelt"
+  npm install -g sky-toolbelt
+}
